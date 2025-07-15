@@ -1,0 +1,1 @@
+Maximum number of likes a post can be given

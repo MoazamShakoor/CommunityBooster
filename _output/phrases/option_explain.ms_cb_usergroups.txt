@@ -1,0 +1,1 @@
+Select user group (users in this user group will be randomly set online)

@@ -1,0 +1,194 @@
+{
+    "cron_entry.ms_cb_like_posts.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "cc1c9771414d4bd9eabcaa8b9430b9cd"
+    },
+    "ms_cb_from.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "5da618e8e4b89c66fe86e32cdafde142"
+    },
+    "ms_cb_likes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "ea69ec28bcb1952b096267cc88060102"
+    },
+    "ms_cb_midnight.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "c8c012313f10e2d0830f3fbc5afca619"
+    },
+    "ms_cb_minutes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "f670ea66cfb0e90bd6090472ad692694"
+    },
+    "ms_cb_noon.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "8f8315c0511459dc8e1136e23c761fe5"
+    },
+    "ms_cb_to.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "e12167aa0a7698e6ebc92b4ce3909b53"
+    },
+    "ms_cb_users.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "f9aae5fda8d810a29f12d1e61b4ab25f"
+    },
+    "option.ms_cb_activity_change.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "ca3bcbcfe8db6148de0171c882a24379"
+    },
+    "option.ms_cb_exclude_nodes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "322726d783d1e29bc8e15421eab1e8e1"
+    },
+    "option.ms_cb_posts_likes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "dd72642fc22d01c3ce2cff21ba3810e2"
+    },
+    "option.ms_cb_posts_newer.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "d8b43e462b93ae6342704487c1c58a26"
+    },
+    "option.ms_cb_time_from_to.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "48f19acacc0fb6eafc4d613c5ad73d12"
+    },
+    "option.ms_cb_usergroups.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "6ad0aac36fe77c9db19780eb59112abf"
+    },
+    "option.ms_cb_usergroups_exclude.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "79cb92251dda578c754b6052ca487e39"
+    },
+    "option.ms_cb_usergroups_exclude_online.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "6ad0aac36fe77c9db19780eb59112abf"
+    },
+    "option.ms_cb_x_to_y_likes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "27814dbc5e3e529e1bdf8b2aba46dcbe"
+    },
+    "option.ms_cb_x_to_y_minutes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "f64a0e2e50457e3475da50fb3a7901fd"
+    },
+    "option.ms_cb_x_to_y_users.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "a519236b7ec05fa8d9c764e36b9de58a"
+    },
+    "option_explain.ms_cb_activity_change.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "7d00f60bafd158dd598f4c2fd94f8d58"
+    },
+    "option_explain.ms_cb_exclude_nodes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "f8c98c5ad7a827c1fd470ea975b6d1dc"
+    },
+    "option_explain.ms_cb_posts_likes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "7f6127e61d43009a0c12d7382fb873f8"
+    },
+    "option_explain.ms_cb_posts_newer.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "f02bfd51604bad9ec2f7e72af476cd17"
+    },
+    "option_explain.ms_cb_time_from_to.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "4ef1a2072c639e87d814e7aa24f649c7"
+    },
+    "option_explain.ms_cb_usergroups.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "6f5e3afdee56ffb501eafcd65be74f4a"
+    },
+    "option_explain.ms_cb_usergroups_exclude.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "1ed958a2a38edb4b8783667019119a10"
+    },
+    "option_explain.ms_cb_usergroups_exclude_online.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "12cb20dfa3fefd5ed1b1e43a1be2b67f"
+    },
+    "option_explain.ms_cb_x_to_y_likes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "a32ece3f655c9ca96027da94184ff185"
+    },
+    "option_explain.ms_cb_x_to_y_minutes.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "9b692695108d928aee7a9e1ba33bb2b9"
+    },
+    "option_explain.ms_cb_x_to_y_users.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "9028a141988b970d4d18d9821ec9582f"
+    },
+    "option_group.ms_community_booster.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "08fce0c14f34cfccb412b67713da97f7"
+    },
+    "option_group_description.ms_community_booster.txt": {
+        "global_cache": false,
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+}

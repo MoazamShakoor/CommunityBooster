@@ -1,0 +1,16 @@
+{
+    "edit_format": "template",
+    "edit_format_params": "template=ms_cb_option_x_to_y\nunits={{ phrase('ms_cb_users') }}",
+    "data_type": "array",
+    "sub_options": [
+        "min",
+        "max"
+    ],
+    "validation_class": "XF\\Option\\MinMax",
+    "validation_method": "verifyOption",
+    "advanced": false,
+    "default_value": "{\"min\":\"1\",\"max\":\"5\"}",
+    "relations": {
+        "ms_community_booster": 1
+    }
+}

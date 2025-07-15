@@ -1,0 +1,16 @@
+{
+    "edit_format": "template",
+    "edit_format_params": "template=ms_cb_template_fromto",
+    "data_type": "array",
+    "sub_options": [
+        "from",
+        "to"
+    ],
+    "validation_class": "MoazamShakoor\\CommunityBooster\\Option\\FromTo",
+    "validation_method": "verifyOption",
+    "advanced": false,
+    "default_value": "{\"from\":\"00\",\"to\":\"00\"}",
+    "relations": {
+        "ms_community_booster": 9
+    }
+}

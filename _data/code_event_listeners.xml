@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<code_event_listeners>
+  <listener event_id="app_pub_start_begin" execute_order="10" callback_class="MoazamShakoor\CommunityBooster\Listeners" callback_method="appPubStartBegin" active="1"/>
+</code_event_listeners>

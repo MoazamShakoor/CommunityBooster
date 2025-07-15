@@ -1,0 +1,12 @@
+{
+    "admin/ms_cb_option_x_to_y.html": {
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "c18c22ca1264d9965ce7a0a6deb3fdaa"
+    },
+    "admin/ms_cb_template_fromto.html": {
+        "version_id": 9000,
+        "version_string": "0.9.0",
+        "hash": "53d10cbb5afb0ae04ab4a4ee7e47af58"
+    }
+}

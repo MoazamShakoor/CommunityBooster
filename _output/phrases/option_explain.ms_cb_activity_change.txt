@@ -1,0 +1,1 @@
+Activity of online user will be change after every X minutes (default: 10)

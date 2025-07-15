@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="ms_cb_activity_change" edit_format="spinbox" data_type="integer">
+    <default_value>10</default_value>
+    <relation group_id="ms_community_booster" display_order="4"/>
+  </option>
+  <option option_id="ms_cb_exclude_nodes" edit_format="callback" data_type="array">
+    <default_value>[]</default_value>
+    <edit_format_params>XF\Option\Forum::renderSelectMultiple</edit_format_params>
+    <sub_options>*</sub_options>
+    <relation group_id="ms_community_booster" display_order="10"/>
+  </option>
+  <option option_id="ms_cb_posts_likes" edit_format="spinbox" data_type="integer">
+    <default_value>0</default_value>
+    <relation group_id="ms_community_booster" display_order="6"/>
+  </option>
+  <option option_id="ms_cb_posts_newer" edit_format="spinbox" data_type="integer">
+    <default_value>0</default_value>
+    <relation group_id="ms_community_booster" display_order="5"/>
+  </option>
+  <option option_id="ms_cb_time_from_to" edit_format="template" data_type="array" validation_class="MoazamShakoor\CommunityBooster\Option\FromTo" validation_method="verifyOption">
+    <default_value>{"from":"00","to":"00"}</default_value>
+    <edit_format_params>template=ms_cb_template_fromto</edit_format_params>
+    <sub_options>from
+to</sub_options>
+    <relation group_id="ms_community_booster" display_order="9"/>
+  </option>
+  <option option_id="ms_cb_usergroups" edit_format="callback" data_type="array">
+    <default_value>[]</default_value>
+    <edit_format_params>XF\Option\UserGroup::renderSelectMultiple</edit_format_params>
+    <sub_options>*</sub_options>
+    <relation group_id="ms_community_booster" display_order="1"/>
+  </option>
+  <option option_id="ms_cb_usergroups_exclude" edit_format="callback" data_type="array">
+    <default_value>[]</default_value>
+    <edit_format_params>XF\Option\UserGroup::renderSelectMultiple</edit_format_params>
+    <sub_options>*</sub_options>
+    <relation group_id="ms_community_booster" display_order="8"/>
+  </option>
+  <option option_id="ms_cb_usergroups_exclude_online" edit_format="callback" data_type="array">
+    <default_value>[]</default_value>
+    <edit_format_params>XF\Option\UserGroup::renderSelectMultiple</edit_format_params>
+    <sub_options>*</sub_options>
+    <relation group_id="ms_community_booster" display_order="1"/>
+  </option>
+  <option option_id="ms_cb_x_to_y_likes" edit_format="template" data_type="array">
+    <default_value>{"min":"1","max":"5"}</default_value>
+    <edit_format_params>template=ms_cb_option_x_to_y
+units={{ phrase('ms_cb_likes') }}</edit_format_params>
+    <sub_options>min
+max</sub_options>
+    <relation group_id="ms_community_booster" display_order="7"/>
+  </option>
+  <option option_id="ms_cb_x_to_y_minutes" edit_format="template" data_type="array" validation_class="XF\Option\MinMax" validation_method="verifyOption">
+    <default_value>{"min":"1","max":"5"}</default_value>
+    <edit_format_params>template=ms_cb_option_x_to_y
+units={{ phrase('ms_cb_minutes') }}</edit_format_params>
+    <sub_options>min
+max</sub_options>
+    <relation group_id="ms_community_booster" display_order="3"/>
+  </option>
+  <option option_id="ms_cb_x_to_y_users" edit_format="template" data_type="array" validation_class="XF\Option\MinMax" validation_method="verifyOption">
+    <default_value>{"min":"1","max":"5"}</default_value>
+    <edit_format_params>template=ms_cb_option_x_to_y
+units={{ phrase('ms_cb_users') }}</edit_format_params>
+    <sub_options>min
+max</sub_options>
+    <relation group_id="ms_community_booster" display_order="1"/>
+  </option>
+</options>

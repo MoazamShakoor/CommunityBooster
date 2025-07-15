@@ -1,0 +1,1 @@
+Random online time between X to Y mins (default: min=1, max=5)

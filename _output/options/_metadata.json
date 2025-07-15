@@ -1,0 +1,35 @@
+{
+    "ms_cb_activity_change.json": {
+        "hash": "4308c9012f740a64e21bae1ee1e8d496"
+    },
+    "ms_cb_exclude_nodes.json": {
+        "hash": "f5d01505e76a85fbbce6fb291433e1c5"
+    },
+    "ms_cb_posts_likes.json": {
+        "hash": "e35fb6973e5015ed8242703e739f98f0"
+    },
+    "ms_cb_posts_newer.json": {
+        "hash": "081960ac25de6914bc20dbf7a425516d"
+    },
+    "ms_cb_time_from_to.json": {
+        "hash": "08f824ab257844233f9a97728082fd6f"
+    },
+    "ms_cb_usergroups.json": {
+        "hash": "db8cc043b5fa787ae7b95faa1fa822e0"
+    },
+    "ms_cb_usergroups_exclude.json": {
+        "hash": "ef7c4b84512685ec40337f4e76b85ee4"
+    },
+    "ms_cb_usergroups_exclude_online.json": {
+        "hash": "db8cc043b5fa787ae7b95faa1fa822e0"
+    },
+    "ms_cb_x_to_y_likes.json": {
+        "hash": "5c698ec15096f8746ae84986325fa25c"
+    },
+    "ms_cb_x_to_y_minutes.json": {
+        "hash": "04ecf35d7aad1a6186da89c5a873e167"
+    },
+    "ms_cb_x_to_y_users.json": {
+        "hash": "12e4b309a01cef13da40f1bcb2019afc"
+    }
+}

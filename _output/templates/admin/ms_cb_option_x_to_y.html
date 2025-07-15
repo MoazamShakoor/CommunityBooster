@@ -1,0 +1,14 @@
+<xf:formrow rowtype="input"
+	label="{$option.title}"
+	hint="{$hintHtml}"
+	explain="{$explainHtml}"
+	html="{$listedHtml}"
+	rowclass="{$rowClass}">
+
+	<div class="inputGroup inputGroup--numbers">
+		<xf:numberbox name="{$inputName}[min]" value="{$option.option_value.min}" placeholder="{{ phrase('ms_cb_from') }}" min="1" />
+		<span class="inputGroup-text">{{ $formatParams.between ? $formatParams.between : '-' }}</span>
+		<xf:numberbox name="{$inputName}[max]" value="{$option.option_value.max}" placeholder="{{ phrase('ms_cb_to') }}" min="1" />
+		<xf:if is="{$formatParams.units}"><span class="inputGroup-text">{$formatParams.units}</span></xf:if>
+	</div>
+</xf:formrow>

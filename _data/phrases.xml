@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="cron_entry.ms_cb_like_posts" version_id="9000" version_string="0.9.0"><![CDATA[MoazamShakoor\CommunityBooster: Like Posts]]></phrase>
+  <phrase title="ms_cb_from" version_id="9000" version_string="0.9.0"><![CDATA[From]]></phrase>
+  <phrase title="ms_cb_likes" version_id="9000" version_string="0.9.0"><![CDATA[Likes]]></phrase>
+  <phrase title="ms_cb_midnight" version_id="9000" version_string="0.9.0"><![CDATA[Midnight]]></phrase>
+  <phrase title="ms_cb_minutes" version_id="9000" version_string="0.9.0"><![CDATA[Minutes]]></phrase>
+  <phrase title="ms_cb_noon" version_id="9000" version_string="0.9.0"><![CDATA[Noon]]></phrase>
+  <phrase title="ms_cb_to" version_id="9000" version_string="0.9.0"><![CDATA[To]]></phrase>
+  <phrase title="ms_cb_users" version_id="9000" version_string="0.9.0"><![CDATA[Users]]></phrase>
+  <phrase title="option.ms_cb_activity_change" version_id="9000" version_string="0.9.0"><![CDATA[Change activity after]]></phrase>
+  <phrase title="option.ms_cb_exclude_nodes" version_id="9000" version_string="0.9.0"><![CDATA[Excluded nodes]]></phrase>
+  <phrase title="option.ms_cb_posts_likes" version_id="9000" version_string="0.9.0"><![CDATA[Post have likes]]></phrase>
+  <phrase title="option.ms_cb_posts_newer" version_id="9000" version_string="0.9.0"><![CDATA[Post new than]]></phrase>
+  <phrase title="option.ms_cb_time_from_to" version_id="9000" version_string="0.9.0"><![CDATA[Online Time]]></phrase>
+  <phrase title="option.ms_cb_usergroups" version_id="9000" version_string="0.9.0"><![CDATA[Usergroups]]></phrase>
+  <phrase title="option.ms_cb_usergroups_exclude" version_id="9000" version_string="0.9.0"><![CDATA[Usergroups to exclude from being like]]></phrase>
+  <phrase title="option.ms_cb_usergroups_exclude_online" version_id="9000" version_string="0.9.0"><![CDATA[Usergroups]]></phrase>
+  <phrase title="option.ms_cb_x_to_y_likes" version_id="9000" version_string="0.9.0"><![CDATA[Post maximum likes]]></phrase>
+  <phrase title="option.ms_cb_x_to_y_minutes" version_id="9000" version_string="0.9.0"><![CDATA[Minutes online]]></phrase>
+  <phrase title="option.ms_cb_x_to_y_users" version_id="9000" version_string="0.9.0"><![CDATA[Online Users range]]></phrase>
+  <phrase title="option_explain.ms_cb_activity_change" version_id="9000" version_string="0.9.0"><![CDATA[Activity of online user will be change after every X minutes (default: 10)]]></phrase>
+  <phrase title="option_explain.ms_cb_exclude_nodes" version_id="9000" version_string="0.9.0"><![CDATA[Excluded nodes from receiving likes]]></phrase>
+  <phrase title="option_explain.ms_cb_posts_likes" version_id="9000" version_string="0.9.0"><![CDATA[Like posts that have at least X number of likes]]></phrase>
+  <phrase title="option_explain.ms_cb_posts_newer" version_id="9000" version_string="0.9.0"><![CDATA[Like posts that are newer than X days]]></phrase>
+  <phrase title="option_explain.ms_cb_time_from_to" version_id="9000" version_string="0.9.0"><![CDATA[Set time for the users to be online (default: from=00, to=00)]]></phrase>
+  <phrase title="option_explain.ms_cb_usergroups" version_id="9000" version_string="0.9.0"><![CDATA[Select user group (users in this user group will be randomly set online)]]></phrase>
+  <phrase title="option_explain.ms_cb_usergroups_exclude" version_id="9000" version_string="0.9.0"><![CDATA[Users in these user groups will not receive likes]]></phrase>
+  <phrase title="option_explain.ms_cb_usergroups_exclude_online" version_id="9000" version_string="0.9.0"><![CDATA[Select user group to not to set online]]></phrase>
+  <phrase title="option_explain.ms_cb_x_to_y_likes" version_id="9000" version_string="0.9.0"><![CDATA[Maximum number of likes a post can be given]]></phrase>
+  <phrase title="option_explain.ms_cb_x_to_y_minutes" version_id="9000" version_string="0.9.0"><![CDATA[Random online time between X to Y mins (default: min=1, max=5)]]></phrase>
+  <phrase title="option_explain.ms_cb_x_to_y_users" version_id="9000" version_string="0.9.0"><![CDATA[X to Y number of users to be online (default: min=1, max=5)]]></phrase>
+  <phrase title="option_group.ms_community_booster" version_id="9000" version_string="0.9.0"><![CDATA[[MS] Community Booster]]></phrase>
+  <phrase title="option_group_description.ms_community_booster" version_id="9000" version_string="0.9.0"><![CDATA[]]></phrase>
+</phrases>

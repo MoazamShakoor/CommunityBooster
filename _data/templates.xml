@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="ms_cb_option_x_to_y" version_id="9000" version_string="0.9.0"><![CDATA[<xf:formrow rowtype="input"
+	label="{$option.title}"
+	hint="{$hintHtml}"
+	explain="{$explainHtml}"
+	html="{$listedHtml}"
+	rowclass="{$rowClass}">
+
+	<div class="inputGroup inputGroup--numbers">
+		<xf:numberbox name="{$inputName}[min]" value="{$option.option_value.min}" placeholder="{{ phrase('ms_cb_from') }}" min="1" />
+		<span class="inputGroup-text">{{ $formatParams.between ? $formatParams.between : '-' }}</span>
+		<xf:numberbox name="{$inputName}[max]" value="{$option.option_value.max}" placeholder="{{ phrase('ms_cb_to') }}" min="1" />
+		<xf:if is="{$formatParams.units}"><span class="inputGroup-text">{$formatParams.units}</span></xf:if>
+	</div>
+</xf:formrow>]]></template>
+  <template type="admin" title="ms_cb_template_fromto" version_id="9000" version_string="0.9.0"><![CDATA[<xf:formrow rowtype="input"
+	label="{$option.title}"
+	hint="{$hintHtml}"
+	explain="{$explainHtml}"
+	html="{$listedHtml}">
+	<ul class="listPlain inputGroup-container">
+			<li class="inputGroup">
+				<xf:select name="{$inputName}[from]" 
+                           value="{$option.option_value.from}" placeholder="{{ phrase('ms_cb_from') }}">
+                    <xf:option value="0">00 {{ phrase('(ms_cb_midnight)') }}</xf:option>
+                    <xf:option value="1">01</xf:option>
+                    <xf:option value="2">02</xf:option>
+                    <xf:option value="3">03</xf:option>
+                    <xf:option value="4">04</xf:option>
+                    <xf:option value="5">05</xf:option>
+                    <xf:option value="6">06</xf:option>
+                    <xf:option value="7">07</xf:option>
+                    <xf:option value="8">08</xf:option>
+                    <xf:option value="9">09</xf:option>
+                    <xf:option value="10">10</xf:option>
+                    <xf:option value="11">11</xf:option>
+                    <xf:option value="12">12 {{ phrase('(ms_cb_noon)') }}</xf:option>
+                    <xf:option value="13">13</xf:option>
+                    <xf:option value="14">14</xf:option>
+                    <xf:option value="15">15</xf:option>
+                    <xf:option value="16">16</xf:option>
+                    <xf:option value="17">17</xf:option>
+                    <xf:option value="18">18</xf:option>
+                    <xf:option value="19">19</xf:option>
+                    <xf:option value="20">20</xf:option>
+                    <xf:option value="21">21</xf:option>
+                    <xf:option value="22">22</xf:option>
+                    <xf:option value="23">23</xf:option>
+                </xf:select>
+				
+				<span class="inputGroup-splitter"></span>
+						<xf:select name="{$inputName}[to]" 
+                           value="{$option.option_value.to}" placeholder="{{ phrase('ms_cb_to') }}">
+                    <xf:option value="0">00 {{ phrase('(ms_cb_midnight)') }}</xf:option>
+                    <xf:option value="1">01</xf:option>
+                    <xf:option value="2">02</xf:option>
+                    <xf:option value="3">03</xf:option>
+                    <xf:option value="4">04</xf:option>
+                    <xf:option value="5">05</xf:option>
+                    <xf:option value="6">06</xf:option>
+                    <xf:option value="7">07</xf:option>
+                    <xf:option value="8">08</xf:option>
+                    <xf:option value="9">09</xf:option>
+                    <xf:option value="10">10</xf:option>
+                    <xf:option value="11">11</xf:option>
+                    <xf:option value="12">12 {{ phrase('(ms_cb_noon)') }}</xf:option>
+                    <xf:option value="13">13</xf:option>
+                    <xf:option value="14">14</xf:option>
+                    <xf:option value="15">15</xf:option>
+                    <xf:option value="16">16</xf:option>
+                    <xf:option value="17">17</xf:option>
+                    <xf:option value="18">18</xf:option>
+                    <xf:option value="19">19</xf:option>
+                    <xf:option value="20">20</xf:option>
+                    <xf:option value="21">21</xf:option>
+                    <xf:option value="22">22</xf:option>
+                    <xf:option value="23">23</xf:option>
+                </xf:select>
+			</li>
+	</ul>
+</xf:formrow>]]></template>
+</templates>
